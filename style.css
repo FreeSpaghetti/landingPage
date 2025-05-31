@@ -32,9 +32,11 @@ body {
 }
 
 .section-one button {
-    color: #E5E7EB;
     background-color: #3882F6;
+    color: #E5E7EB;
     border-radius: 5px;
+    border: 1px solid #fff; 
+    padding: 7px;
 
 }
 
@@ -68,11 +70,17 @@ gap: 10px;
 .section-three {
     height: 300px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .section-three h2 {
+    width: 900PX;
     font-size:  36px;
     text-align: center;
     font-weight: 100;
+    margin-left: 300px ;
 }
 
 .section-three span {
@@ -83,14 +91,17 @@ gap: 10px;
 
 
 .section-four {
+    width: 700px;
+    height: 90px;
     color: #E5E7EB;
-    margin: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 300px;
     background-color: #3882F6;
 }
 .section-four .left-half {
+    font-size: 12px;
     padding: 0px;
     margin: 0px;
     border-radius: 5px;
@@ -101,6 +112,8 @@ gap: 10px;
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 5px;
+    border: 1px solid #fff; 
+    padding: 7px;
 }
 
 
