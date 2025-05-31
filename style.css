@@ -91,7 +91,6 @@ gap: 10px;
 
 
 .section-four {
-    width: 700px;
     height: 90px;
     color: #E5E7EB;
     display: flex;
@@ -99,6 +98,10 @@ gap: 10px;
     align-items: center;
     height: 300px;
     background-color: #3882F6;
+    margin: 200px;
+    border-radius: 5px;
+    box-sizing:border-box;
+
 }
 .section-four .left-half {
     font-size: 12px;
@@ -118,9 +121,11 @@ gap: 10px;
 
 
 .footer {
+
     background-color: #1F2937;
     text-align: center;
     color: #fff;
      font-size: 15px;
     font-weight: 100;
+    margin: 0px;
 }
